@@ -3,6 +3,7 @@ const loveBox = document.getElementById("loveBox")
 const p = document.getElementById("p")
 const p1 = document.getElementById("P1")
 const text1 = document.getElementById("text1")
+const text2 = document.getElementById("text2")
 
 const TextF = {
 
@@ -44,10 +45,23 @@ const steps = {
     },
 
     step4: function() {
-        var txt = "Moja Ukochana Milii🤍 Jesteś Mega dziewczynaaaa i w ogóleeee 😘 Nie mówi, że nieee 🤍 Mega dziekuje i sie mega ciesze, że jestes tutaj 🥹 Jesteś najlepsza 🌷😘 Uwielbiam Cie 💍🥇"
         TextF.displayText(txt, text1)
+    },
+    
+    step5: function() {
+        text1.style.width = "80%"
+        text1.style.height = "45%"
+        text2.style.width = "80%"
+        text2.style.height = "40%"
+    },
+
+    step6: function() {
+        var txt2 = "Aktualnie jedziesz wiec"
+        TextF.displayText(txt2, text2)
     }
 }
+
+var txt = "Moja Ukochana Milii🤍 Jesteś Mega dziewczynaaaa i w ogóleeee 😘 Nie mówi, że nieee 🤍 Mega dziekuje i sie mega ciesze, że jestes tutaj 🥹 Jesteś najlepsza 🌷😘 Uwielbiam Cie 💍🥇"
 
 let clicked = false 
 
@@ -61,5 +75,7 @@ loveBTN.addEventListener("click", () => {
         setTimeout(steps.step3, 1401)
 
         setTimeout(steps.step4, 1901)
+        setTimeout(steps.step5, 1901 + (txt.length * 20))
+        setTimeout(steps.step6, 2401 + (txt.length * 20))
     }
 })
