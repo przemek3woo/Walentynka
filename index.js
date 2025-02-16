@@ -27,7 +27,7 @@ const TextF = {
 const steps = {
     step1: function() {
         loveBTN.style.width = "400px"
-        loveBTN.style.height = "500px"
+        loveBTN.style.height = "550px"
         loveBTN.classList.remove("hoverClass")
         p.style.display = "none"
         loveBox.style.display = "flex"
@@ -50,19 +50,18 @@ const steps = {
     
     step5: function() {
         text1.style.width = "80%"
-        text1.style.height = "45%"
+        text1.style.height = "35%"
         text2.style.width = "80%"
         text2.style.height = "40%"
     },
 
     step6: function() {
-        var txt2 = "Aktualnie jedziesz wiec"
         TextF.displayText(txt2, text2)
     }
 }
 
-var txt = "Moja Ukochana Milii🤍 Jesteś Mega dziewczynaaaa i w ogóleeee 😘 Nie mówi, że nieee 🤍 Mega dziekuje i sie mega ciesze, że jestes tutaj 🥹 Jesteś najlepsza 🌷😘 Uwielbiam Cie 💍🥇"
-
+var txt = "Moja Ukochana Milii🤍 Jesteś Mega dziewczynaaaa i w ogóleeee 😘 Nie mów, że nieee 🤍 Mega dziękuje i sie mega cieszę, że jesteś tutaj 🥹 Jesteś najlepsza 🌷😘 Uwielbiam Cię 💍🥇"
+var txt2 = "To miała być stronka na Walentynki 🩷🫣 Alee okazało sie, że moge Ci ją wysłać dopiero kiedy sie spotkamy ale Ty jedziesz dziś wiec chce Ci ją teraz dać i życzyć mega przyjemnej i safe drogi 🥹🤍🚐 Kocham Cie i życzę Ci MEGA wyjazdu 💍🌷🎿"
 let clicked = false 
 
 loveBTN.addEventListener("click", () => {
@@ -76,6 +75,6 @@ loveBTN.addEventListener("click", () => {
 
         setTimeout(steps.step4, 1901)
         setTimeout(steps.step5, 1901 + (txt.length * 20))
-        setTimeout(steps.step6, 2401 + (txt.length * 20))
+        setTimeout(steps.step6, 2801 + (txt.length * 20))
     }
 })
