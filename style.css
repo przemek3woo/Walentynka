@@ -135,3 +135,7 @@ body {
         transform: translateX(10.5vw) rotateZ(2deg);
     }
 }
+
+* {
+    text-shadow: 0 0 15px #00000077;
+}
