@@ -60,8 +60,8 @@ const steps = {
     }
 }
 
-var txt = "Moja Ukochana Milii🤍 Jesteś Mega dziewczynaaaa i w ogóleeee 😘 Nie mów, że nieee 🤍 Mega dziękuje i sie mega cieszę, że jesteś tutaj 🥹 Jesteś najlepsza 🌷😘 Uwielbiam Cię 💍🥇"
-var txt2 = "To miała być stronka na Walentynki 🩷🫣 Alee okazało sie, że moge Ci ją wysłać dopiero kiedy sie spotkamy ale Ty jedziesz dziś wiec chce Ci ją teraz dać i życzyć mega przyjemnej i safe drogi 🥹🤍🚐 Kocham Cie i życzę Ci MEGA wyjazdu 💍🌷🎿"
+var txt = "Kociaczku mój 🩷🥹😽 Kooochhaaaam Cieee 🤍🩷🎿 Kolejny dzień mam nadzieję, że udanego w skali czasu wyjazdy 🚐🥇 Życzę Ci poprostu ślicznego dnia 🌷"
+var txt2 = "Dzisiaj masz jechać na narty wiec w takim razie pragnę Ci powiedzieć, żebyś zjadła mega śniadanko i miała siłę jeździć tam i mega fajnego i przyjemnego wyjadu 🎿🥇🚐🩷 Kocham Cie i powodzenia 🤍🤍🤍"
 let clicked = false 
 
 loveBTN.addEventListener("click", () => {
