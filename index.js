@@ -52,7 +52,7 @@ const steps = {
         text1.style.width = "80%"
         text1.style.height = "35%"
         text2.style.width = "80%"
-        text2.style.height = "40%"
+        text2.style.height = "45%"
     },
 
     step6: function() {
@@ -60,8 +60,8 @@ const steps = {
     }
 }
 
-var txt = "Kociaczku mój 🩷🥹😽 Kooochhaaaam Cieee 🤍🩷🎿 Kolejny dzień mam nadzieję, że udanego w skali czasu wyjazdy 🚐🥇 Życzę Ci poprostu ślicznego dnia 🌷"
-var txt2 = "Dzisiaj masz jechać na narty wiec w takim razie pragnę Ci powiedzieć, żebyś zjadła mega śniadanko i miała siłę jeździć tam i mega fajnego i przyjemnego wyjadu 🎿🥇🚐🩷 Kocham Cie i powodzenia 🤍🤍🤍"
+var txt = "Pimpuśiu 🤍🩷💜 Kolejny dzionek razem i dziękuje, że jeszczeee jesteś 😽🌷 Kocham Cie i dziekuję i przepraszam za siebie od początku 😭😭 Wybaczysz mi Kiciu? 😭🤍"
+var txt2 = "Wstałaś rano i mam nadzieję, że czytasz to z samego rana😊🤍🥺 Jeśli tak toooo mega chcę Ci życzyć powodzonka szykowanku 🤍🌷 Smaczniutkiego śniadanka i pićka i miłej modliwy 😽🤍 Jeśli wyjdziecie do shopa to powodzonka i kup sobie tam coś mega🤍🤍🤍"
 let clicked = false 
 
 loveBTN.addEventListener("click", () => {
