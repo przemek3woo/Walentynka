@@ -60,8 +60,8 @@ const steps = {
     }
 }
 
-var txt = "Pimpuśiu 🤍🩷💜 Kolejny dzionek razem i dziękuje, że jeszczeee jesteś 😽🌷 Kocham Cie i dziekuję i przepraszam za siebie od początku 😭😭 Wybaczysz mi Kiciu? 😭🤍"
-var txt2 = "Wstałaś rano i mam nadzieję, że czytasz to z samego rana😊🤍🥺 Jeśli tak toooo mega chcę Ci życzyć powodzonka szykowanku 🤍🌷 Smaczniutkiego śniadanka i pićka i miłej modliwy 😽🤍 Jeśli wyjdziecie do shopa to powodzonka i kup sobie tam coś mega🤍🤍🤍"
+var txt = "Króliczku 🤍🐰 Koochaam Ciee 🌷💜 Dziekuje za kolejny dzionek 😊😽 Jesteś megaaaaaaa wuperrrrr i piekna i cudowna dziewczynaaa🩷🤍 Może zechciała byś nagrać tt sobiee? 🫣🎥 Dawno nie ćwiczyłaś 🐰🫣"
+var txt2 = "Powodzonka w zbieranku Kochanie 🤗🤍 Miłej modlitwy porannej i smaczniutkiego śniadanka oraz mega pogaduszek 🌷🩷🤍 Co dzisiaj jest zaplanowane jako główna atrakcja? 🫣 Megaaaa miłego wyjścia na tooo 👙🤽"
 let clicked = false 
 
 loveBTN.addEventListener("click", () => {
