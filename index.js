@@ -27,7 +27,7 @@ const TextF = {
 const steps = {
     step1: function() {
         loveBTN.style.width = "400px"
-        loveBTN.style.height = "550px"
+        loveBTN.style.height = "570px"
         loveBTN.classList.remove("hoverClass")
         p.style.display = "none"
         loveBox.style.display = "flex"
@@ -50,9 +50,9 @@ const steps = {
     
     step5: function() {
         text1.style.width = "80%"
-        text1.style.height = "35%"
+        text1.style.height = "30%"
         text2.style.width = "80%"
-        text2.style.height = "45%"
+        text2.style.height = "50%"
     },
 
     step6: function() {
@@ -60,8 +60,8 @@ const steps = {
     }
 }
 
-var txt = "Króliczku 🤍🐰 Koochaam Ciee 🌷💜 Dziekuje za kolejny dzionek 😊😽 Jesteś megaaaaaaa wuperrrrr i piekna i cudowna dziewczynaaa🩷🤍 Może zechciała byś nagrać tt sobiee? 🫣🎥 Dawno nie ćwiczyłaś 🐰🫣"
-var txt2 = "Powodzonka w zbieranku Kochanie 🤗🤍 Miłej modlitwy porannej i smaczniutkiego śniadanka oraz mega pogaduszek 🌷🩷🤍 Co dzisiaj jest zaplanowane jako główna atrakcja? 🫣 Megaaaa miłego wyjścia na tooo 👙🤽"
+var txt = "Pimpusiu Mój Kochany 🌷🤍🤗 Dziękuje, że czytasz tooo i, że jesteś i chce Ci się 😻😊🎉 Dziękuje za każde staranko i okazywanie ważności 🤍🥺 Kocham Cie 🤍🩵🖤"
+var txt2 = 'Szkoda, że nie możesz na narty jechać 😭😭 Ale chociaż życze Ci miłego spedzenia czasu oraz ciekawego chodzonka 🥺🤍 Żeby nożki nie bolały 🥺 Bedzie to dobry dzień 🥺🤍 Ale w 2cz. dnia spędz super z dziewczynami i mega czasu Ci tam życzę 😊🤍🎉 Pojedz sobie i popij bo pewnie będzie cola i chipsy 🫣'
 let clicked = false 
 
 loveBTN.addEventListener("click", () => {

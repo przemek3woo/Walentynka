@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(145deg, #84ff92, #ffa163);
+    background: linear-gradient(145deg, #fc99ee, #afffb3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,6 +110,7 @@ body {
 
 .emotion:nth-child(2) {
     z-index: 2;
+    font-size: 150px;
     animation: emove2 3s ease-in-out infinite;
 }
 
@@ -129,14 +130,14 @@ body {
 
 @keyframes emove2 {
     0% {
-        transform: translateX(10.5vw) rotateZ(2deg);
+        transform: translateX(10.5vw) rotateZ(2deg) translateY(20px);
     }
 
     50% {
-        transform: translateX(9.5vw) rotateZ(-2deg);
+        transform: translateX(9.5vw) rotateZ(-2deg) translateY(20px);
     }
 
     100% {
-        transform: translateX(10.5vw) rotateZ(2deg);
+        transform: translateX(10.5vw) rotateZ(2deg) translateY(20px);
     }
 }
