@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(145deg, #fc99ee, #afffb3);
+    background: linear-gradient(145deg, #99fcf5, #afffda);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,6 @@ body {
 
 .emotion:nth-child(2) {
     z-index: 2;
-    font-size: 150px;
     animation: emove2 3s ease-in-out infinite;
 }
 

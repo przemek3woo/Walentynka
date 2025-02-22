@@ -50,9 +50,9 @@ const steps = {
     
     step5: function() {
         text1.style.width = "80%"
-        text1.style.height = "30%"
+        text1.style.height = "35%"
         text2.style.width = "80%"
-        text2.style.height = "50%"
+        text2.style.height = "45%"
     },
 
     step6: function() {
@@ -60,8 +60,8 @@ const steps = {
     }
 }
 
-var txt = "Pimpusiu Mój Kochany 🌷🤍🤗 Dziękuje, że czytasz tooo i, że jesteś i chce Ci się 😻😊🎉 Dziękuje za każde staranko i okazywanie ważności 🤍🥺 Kocham Cie 🤍🩵🖤"
-var txt2 = 'Szkoda, że nie możesz na narty jechać 😭😭 Ale chociaż życze Ci miłego spedzenia czasu oraz ciekawego chodzonka 🥺🤍 Żeby nożki nie bolały 🥺 Bedzie to dobry dzień 🥺🤍 Ale w 2cz. dnia spędz super z dziewczynami i mega czasu Ci tam życzę 😊🤍🎉 Pojedz sobie i popij bo pewnie będzie cola i chipsy 🫣'
+var txt = "Moja Kochana Mili 🤍😊 Mam nadzieje, że spodobały Ci się wyjazd 🤍🩶 Było lepiej jeśli chodzi o mnie w stosunku do portugali czy nadal słabo? 🥺 Jak coś to nie musimy dzisiaj w busiku pisać bo nie lubisz 🤍🥺"
+var txt2 = "Kociaczku 😻😊 Życze mega bezpiecznej, fajowej, pełnej ciekawych gadek i miłej jazdy powrotnej 🤍🚐 Kocham Ciee 🤍💍 Baw się tam dobrze 😊🎉 Jeśli chcesz i moge prosić to upodaty prosze jakby coś sie działo ciekawego 🫣🧃"
 let clicked = false 
 
 loveBTN.addEventListener("click", () => {
